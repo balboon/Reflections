@@ -13,3 +13,9 @@ When you want to try out new features but keep a working copy.
 How do the diagrams help you visualize the branch structure?
 It's easy to see which branches have reachability to other commits.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+You add the commits of both branches together. The new parent now has reachability to both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: can add differences quickly
+Cons: simple differences would cause conflicts that would otherwise not come up if merging manually
