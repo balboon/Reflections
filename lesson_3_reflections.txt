@@ -32,5 +32,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    If you are working on fixing a bug or wanting to explore or add a new feature, I would branch.  This allows the working version to stay the same in the event the new features being worked on affect the working version.
 
